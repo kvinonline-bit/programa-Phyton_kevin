@@ -1,7 +1,8 @@
-#problema #1
-#curso:fundamentos de programacion
-#tarea #5
-#codigo de autoria propia
+#Nombre Estudiante: Harnol Kevin Vargas Ferreira 
+#Grupo : 614
+#Programa: Fundamentos de programacion
+#Codigo Fuente: Autoria Propia 
+#ejercicio 1
 
 
 sesiones = [
