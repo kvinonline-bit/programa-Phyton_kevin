@@ -57,13 +57,15 @@ if __name__ == "__main__":
     sesiones += sesiones_int()
     print("Informe de compromiso de sesiones")
     print('''
-╔══════════════╦══════════════╗
-║ID Cliente    ║ Clasificación║
-╠══════════════╬══════════════╣''')
+╔════╦═════════╦═════════╦════════════╗
+║ID  ║duracion ║ N° Clics║Calificación║
+╠════╬═════════╬═════════╬════════════╣''')
    
     for session in sesiones:
         cliente_id, duracion, clics = session
         clasificacion = clasificar_compromiso(duracion, clics)
        
-        print(f"║{cliente_id:<13} ║ {clasificacion:<13}║")
-    print('''╚══════════════╩══════════════╝''')
+        print(f"║{cliente_id:<2} ║ {duracion:<7} ║ {clics:<7} ║ {clasificacion:<10} ║")
+    print('''╚════╩═════════╩═════════╩════════════╝''')
+    
+    
